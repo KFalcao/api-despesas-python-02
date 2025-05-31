@@ -11,7 +11,7 @@
     height: 100%;
   }
   
-  body.login-page {
+  body.login-page, body.cadastro-page {
     font-family: 'Montserrat', sans-serif;
     color: #004D66;
   
@@ -112,3 +112,9 @@
     font-size: 0.95rem;
   }
   
+  .login-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
